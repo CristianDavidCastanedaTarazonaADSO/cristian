@@ -1,0 +1,243 @@
+*{
+    font-family: 'Poppins';
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Estructura {
+    width: 1172px;
+    height: 1656px;
+    background-image: url(formato.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.logo{
+    width: 120px;
+    position: absolute; 
+    left: 80px;
+    top: 40px;
+    z-index: 2;
+}
+
+.arriba1{
+    width: 1172px;
+    position: absolute; 
+    left: 0px;
+    top:0px;  
+    z-index: 1; 
+}
+
+.circulo1{
+    width: 90px;
+    position: absolute; 
+    left: 0px;
+    top: 340px;
+    z-index: 1;
+}
+
+.arriba2{
+    width: 1172px;
+    position: absolute; 
+    left: 0px;
+    top:1440px;  
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.circulo2{
+    width: 90px;
+    position: absolute; 
+    right: 0px;
+    top:1120px;  
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.Play{
+    width: 1100px;
+    position: absolute; 
+    right: 10px;
+    top: 20px;   
+}
+.Orden{
+    position: absolute;
+    color: white;
+    left: 200px;
+    top: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    z-index: 1;
+
+}
+
+.Titulo{
+    color: #003e5f;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-weight: 900;
+    font-size: 100px;
+}
+.numfecha{
+    position: absolute;
+    top: 262px;
+    right: 50px;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+}
+.nit{
+    color: #4D4A48;
+    z-index: 1;
+
+}
+.fecha{
+    color: #4C4A49;
+    position: relative;
+    left: 15px;
+    z-index: 1;
+}
+
+.Ordenacion{
+    color: #4C4A4B;
+    position: absolute;
+    top: 365px;
+    left: 105px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    line-height: 13px;
+}
+
+.Cuadro{
+    background-color: #003E5F;
+    width: 90%;
+    height: 50px;
+    border: 2px solid;
+    position: absolute;
+    top: 580px;
+    left: 5%;
+    border-radius: 40px;
+}
+
+.Cuadro2{
+    background-color: #60c0f3;
+    width: 50%;
+    height: 50px;
+    border: 0px solid;
+    position: absolute;
+    top: 285px;
+    right: 0%;
+    border-radius: 40px;
+}
+
+.Datos{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 85%;
+    font-size: 20px;
+}
+.Datos thead{
+    color: white;
+    line-height: 100px;
+}
+.Datos tbody{
+    position: relative;
+    left: 30px;
+    line-height: 100px;
+}
+.Division1{
+    position: relative;
+    top: 730px;
+    width: 80%;    
+}
+
+.Division2{
+    position: relative;
+    top: 820px;
+    width: 80%;  
+}
+
+.Division3{
+    position: relative;
+    top: 910px;
+    width: 80%;  
+}
+
+.Division4{
+    position: relative;
+    top: 1000px;
+    width: 80%;  
+}
+
+.Division5{
+    position: relative;
+    top: 1090px;
+    width: 80%;  
+}
+
+.Datos tr th{
+    color: white;
+}
+
+.Condiciones{
+    position: absolute;
+    bottom: 330px;
+    left: 120px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+}
+.Condiciones p{
+    margin: 10px;
+}
+
+.Firma{
+    position: absolute;
+    bottom: 120px;
+    left: 140px;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.Calculo{
+    position: absolute;
+    bottom: 280px;
+    right: 100px;
+    width: 250px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.Calculo span{
+    position: absolute;
+    right: 0;
+}
+.Linea {
+    position: relative;
+    top: 110px;
+    width: 100%;  
+}
+.Info{
+    position: absolute;
+    right: 80px;
+    bottom: 30px;
+    color: white;
+    z-index: 1;
+}
+.Gmail{
+    position: absolute;
+    right: 4px;
+    margin: 0;
+}
